@@ -1,0 +1,190 @@
+
+a{
+    text-decoration:none;
+    color:white;
+}
+.d-flex{
+    display: flex;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.aic{
+    align-items: center;
+}
+.container{
+    margin:0 auto;
+    max-width:1320px;
+    padding:0px 12px;
+}
+.nav{
+    background-color: #AA0601;
+
+}
+.selection{
+   max-width:492px;
+   gap:64px;
+}
+.selection li{
+ padding:25px 0px;
+
+}
+.logo{
+    max-width:80px;
+
+}
+.logo img{
+    max-width:100%;
+}
+.footer{
+    background-color:  #AA0601;
+
+}
+.main{
+    height: 200px;
+}
+.chooseList{
+  gap:48px;
+max-width:464px;
+}
+.chatList{
+    max-width:208px;
+    gap:32px;
+}
+.chatList img{
+    width:48px;
+}
+.bottom{
+    background-color:  #AA0601;
+    
+}
+.border-top{
+    border-top:white solid 1px;
+}
+.bottom p{
+    color:white;
+   padding:32px 0px;
+    }
+.bottomList{
+    width:174px;
+}
+.pb-32{
+    padding-bottom:32px;
+}
+.pb-8{
+    padding-bottom:8px;
+}
+.pt-60{
+    padding-top:60px;
+}
+.pb-35{
+    padding-bottom: 35px;
+}
+.w-36{
+    width:36px;
+}
+.d-block{
+    display:block;
+}
+
+.fs-1{
+font-size: 14px;
+line-height: 21px;
+}
+.fs-2{
+    font-size: 16px;
+    line-height: 24px;
+}
+.fs-3{
+    font-size: 20px;
+    line-height: 30px;
+}
+.fs-4{
+    font-size: 24px;
+    line-height: 36px;
+}
+.fs-5{
+    font-size: 36px;
+    line-height: 54px;
+}
+.fs-6{
+    font-size: 48px;
+    line-height: 72px;
+}.fs-7{
+    font-size: 64px;
+    line-height: 96px;
+}
+@media(max-width:375px){
+ 
+    .fs-sm-1{
+        font-size: 14px;
+        line-height: 21px;
+        }
+        .fs-sm-2{
+            font-size: 16px;
+            line-height: 24px;
+        }
+        .fs-sm-3{
+            font-size: 20px;
+            line-height: 30px;
+        }
+        .fs-sm-4{
+            font-size: 24px;
+            line-height: 36px;
+        }
+        .fs-sm-5{
+            font-size: 36px;
+            line-height: 54px;
+        }
+        .fs-sm-6{
+            font-size: 48px;
+            line-height: 72px;
+        }.fs-sm-7{
+            font-size: 64px;
+            line-height: 96px;
+        }
+      .column{
+        flex-direction: column;
+      }
+      .d-wrap-50{
+        flex-wrap:wrap;
+        max-width:calc(50%-4px);
+      }
+      .addborder{
+        border:1px white solid;
+ 
+      }
+     .container{
+        padding:0px;
+     }
+     .container-sm{
+        padding:0px 12px;
+     }
+     .selection{
+     gap:0px;
+
+     }
+    .selection li{
+        padding:12px 62px;
+    };
+   
+     .chatList img{
+        width:24px;
+    }
+    .chatList{
+        max-width:88px;
+        gap:8px;
+    }
+    .chooseList{
+        gap:0px;
+        display:none;
+    }
+    .pb-sm-20{
+        padding-bottom:20px;
+    }
+    .pt-sm-24{
+        padding-top:24px;
+    }
+}
+
+   
