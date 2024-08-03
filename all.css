@@ -114,7 +114,7 @@ line-height: 21px;
     font-size: 64px;
     line-height: 96px;
 }
-@media(max-width:375px){
+@media(max-width:600px){
  
     .fs-sm-1{
         font-size: 14px;
