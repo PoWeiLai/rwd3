@@ -22,7 +22,7 @@ a{
 
 }
 .selection{
-   max-width:492px;
+   /* max-width:492px; */
    gap:64px;
 }
 .selection li{
@@ -45,14 +45,15 @@ a{
 }
 .chooseList{
   gap:48px;
-max-width:464px;
+/* max-width:464px; */
+
 }
 .chatList{
-    max-width:208px;
+  
     gap:32px;
 }
 .chatList img{
-    width:48px;
+    max-width:48px;
 }
 .bottom{
     background-color:  #AA0601;
@@ -66,7 +67,7 @@ max-width:464px;
    padding:32px 0px;
     }
 .bottomList{
-    width:174px;
+    gap:48px;
 }
 .pb-32{
     padding-bottom:32px;
@@ -85,6 +86,9 @@ max-width:464px;
 }
 .d-block{
     display:block;
+}
+.d-none {
+    display: none;
 }
 
 .fs-1{
@@ -114,7 +118,7 @@ line-height: 21px;
     font-size: 64px;
     line-height: 96px;
 }
-@media(max-width:600px){
+@media(max-width:700px){
  
     .fs-sm-1{
         font-size: 14px;
@@ -143,13 +147,16 @@ line-height: 21px;
             font-size: 64px;
             line-height: 96px;
         }
+        .g-sm-8{
+            gap: 8px;
+        }
       .column{
         flex-direction: column;
       }
-      .d-wrap-50{
+      /* .d-wrap-50{
         flex-wrap:wrap;
         max-width:calc(50%-4px);
-      }
+      } */
       .addborder{
         border:1px white solid;
  
@@ -162,29 +169,57 @@ line-height: 21px;
      }
      .selection{
      gap:0px;
+     flex-wrap:wrap;
+
 
      }
     .selection li{
-        padding:12px 62px;
-    };
+        padding:12px 0px;
+       min-width:50%;
+      text-align: center;
+    }
    
      .chatList img{
-        width:24px;
+        min-width:24px;
+
     }
     .chatList{
-        max-width:88px;
+       
         gap:8px;
     }
     .chooseList{
         gap:0px;
-        display:none;
+        /* display:none; */
     }
+    .bottomList{
+        gap:8px;
+    }
+    .bottom p{
+        padding-top:20px;
+        padding-bottom:8px;
+    }
+     .pl-sm-15{
+        padding-left: 15px;
+     }
     .pb-sm-20{
         padding-bottom:20px;
     }
     .pt-sm-24{
         padding-top:24px;
     }
+   .bottomList{
+    padding-bottom:24px;
+   }
+   .d-sm-none {
+    display: none;
 }
+   .text-start{
+    text-align:start;
+   }
+   .align-items-start {
+    align-items: start;
+   }
 
    
+
+}
