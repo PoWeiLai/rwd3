@@ -1,4 +1,5 @@
 
+
 a{
     text-decoration:none;
     color:white;
@@ -22,7 +23,7 @@ a{
 
 }
 .selection{
-   /* max-width:492px; */
+
    gap:64px;
 }
 .selection li{
@@ -35,7 +36,7 @@ a{
 }
 .logo img{
     max-width:100%;
-}
+} 
 .footer{
     background-color:  #AA0601;
 
@@ -45,7 +46,7 @@ a{
 }
 .chooseList{
   gap:48px;
-/* max-width:464px; */
+
 
 }
 .chatList{
@@ -117,7 +118,7 @@ line-height: 21px;
 }.fs-7{
     font-size: 64px;
     line-height: 96px;
-}
+} 
 @media(max-width:700px){
  
     .fs-sm-1{
@@ -152,12 +153,12 @@ line-height: 21px;
         }
       .column{
         flex-direction: column;
-      }
-      /* .d-wrap-50{
+      } 
+       .d-wrap-50{
         flex-wrap:wrap;
         max-width:calc(50%-4px);
-      } */
-      .addborder{
+      } 
+       .addborder{
         border:1px white solid;
  
       }
@@ -166,8 +167,8 @@ line-height: 21px;
      }
      .container-sm{
         padding:0px 12px;
-     }
-     .selection{
+     } 
+      .selection{
      gap:0px;
      flex-wrap:wrap;
 
@@ -189,7 +190,7 @@ line-height: 21px;
     }
     .chooseList{
         gap:0px;
-        /* display:none; */
+      
     }
     .bottomList{
         gap:8px;
@@ -197,8 +198,8 @@ line-height: 21px;
     .bottom p{
         padding-top:20px;
         padding-bottom:8px;
-    }
-     .pl-sm-15{
+    } 
+         .pl-sm-15{
         padding-left: 15px;
      }
     .pb-sm-20{
@@ -206,7 +207,7 @@ line-height: 21px;
     }
     .pt-sm-24{
         padding-top:24px;
-    }
+    } 
    .bottomList{
     padding-bottom:24px;
    }
@@ -220,6 +221,8 @@ line-height: 21px;
     align-items: start;
    }
 
-   
+   .p-sm-12{
+    padding:12px;
+   }
 
 }
